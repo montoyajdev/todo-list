@@ -8,6 +8,7 @@ import java.time.LocalDate;
 @Data
 @EqualsAndHashCode(of = "id")
 public class TodoItem {
+
     // == fields ==
     private int id;
     private String title;
